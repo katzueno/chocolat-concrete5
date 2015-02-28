@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* ====================================
+smart phone style max-width: 640px
+==================================== */
+
+@media only screen and (max-width: 640px) {
+
+/* ------------------------------------
+5.3 - related entry, new entry
+------------------------------------ */
+
+.related-contents li,
+.new-contents li {
+	margin-right: 1.6666%;
+	width: 49.1666%;
+}
+
+.related-contents li:nth-child(2n),
+.new-contents li:nth-child(2n) {
+	margin-right: 0;
+}
+
+.common-post-title {
+	font-size: 0.9em;
+}
+
+}
+
+/* ====================================
+PC style min-width: 641px
+==================================== */
+
+@media only screen and (min-width: 641px) {
+
+
+
+/* ------------------------------------
+5.3 - related entry, new entry
+------------------------------------ */
+
+.related-contents li,
+.new-contents li {
+	margin-right: 1.6666%;
+}
+
+/* Default five-column */
+.related-contents .five-column li,
+.new-contents .five-column li {
+	width: 18.6666%;
+}
+
+.related-contents .five-column li:nth-child(5n),
+.new-contents .five-column li:nth-child(5n) {
+	margin-right: 0;
+}
+
+/* four-column */
+.related-contents .four-column li,
+.new-contents .four-column li {
+	width: 23.73%;
+}
+
+.related-contents .four-column li:nth-child(4n),
+.new-contents .four-column li:nth-child(4n) {
+	margin-right: 0;
+}
+
+/* three-column */
+.related-contents .three-column li,
+.new-contents .three-column li {
+	width: 32.1%;
+}
+
+.related-contents .three-column li:nth-child(3n),
+.new-contents .three-column li:nth-child(3n) {
+	margin-right: 0;
+}
+
+/* two-column */
+.related-contents .two-column li,
+.new-contents .two-column li {
+	margin-right: 1.6666%;
+	width: 49.1666%;
+}
+
+.related-contents .two-column li:nth-child(2n),
+.new-contents .two-column li:nth-child(2n) {
+	margin-right: 0;
+}
+
+.common-post-title {
+	font-size: 0.8em;
+}
+
+
+
+}
+
+/* ====================================
+PC style max-width: 999px
+==================================== */
+
+@media only screen and (max-width: 999px) {
+
+
+
+
+/* ------------------------------------
+6.2 - widget-Adsense
+------------------------------------ */
+
+#widget-ad-large {
+	padding-bottom: 30px;
+}
+
+.inactive-sidebar #widget-ad-large {
+	padding-top: 30px;
+}
+
+#widget-ad-large .widget:last-child {
+	margin-bottom: 0;
+}
+
+
+}

@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/* ====================================
+smart phone only
+==================================== */
+
+
+
+/* ------------------------------------
+3.3 - pagination
+------------------------------------ */
+
+.pagination,
+.post-pagination {
+	margin: 20px 0;
+}
+
+
+
+
+/* ------------------------------------
+4.1.3 - custom header image
+------------------------------------ */
+
+
+
+#header-image.flexslider {
+	margin-bottom: 15px;
+}
+
+/* ------------------------------------
+5.1 - content-header
+------------------------------------ */
+
+#content-header {
+	padding: 20px 10px 0;
+}
+
+#content-header h1.page-title {
+	margin-bottom: 10px;
+}
+
+#content-header .search-str,
+#content-header p {
+	font-size: 1em;
+}
+
+#content-header #content-center {
+	text-align: left;
+}
+
+
+/* ------------------------------------
+5.2.1 - section-top
+------------------------------------ */
+
+
+
+section .entry-dates a span.ro-on {
+	background-position: -60px 0;
+}
+
+section .entry-dates .entry-sticky:before {
+	font-size: 28px;
+}
+
+/* ------------------------------------
+5.2.2 - section-center
+------------------------------------ */
+
+/* entry-thumbnail */
+/* entry-content */
+section .entry-thumbnail,
+section .entry-content {
+	margin: 10px 0;
+}
+
+/* last-update */
+section .last-update {
+	font-size: 0.9em;
+}
+
+/* more-link */
+section .more-link {
+	font-size: 0.9em;
+	height: 50px;
+	line-height: 1.1;
+	margin-bottom: 0;
+	width: 50px;
+}
+
+section .more-link a,
+section .more-link a span.ro-off,
+section .more-link a span.ro-on {
+	background-size: 100px;
+	padding-top: 12px;
+}
+
+section .more-link a {
+	height: 50px;
+	width: 50px;
+}
+
+section .more-link a span.ro-on {
+	background-position: -50px 0;
+}
+
+/* ------------------------------------
+5.2.3 - section-bottom
+------------------------------------ */
+
+section .entry_meta {
+	font-size: 0.9em;
+}
+
+
+/* ------------------------------------
+5.5.  - Audio
+------------------------------------ */
+
+/* Audio */
+.format-audio .wp-audio-shortcode {
+	max-width: 100% !important; /* Override mediaelement.js style */
+}
+
+/* ------------------------------------
+6.2 - widget-Adsense
+------------------------------------ */
+
+.content-adsense-bottom .widget {
+	background: #e5ceb1 url(../img/base/bg-footer-w.png) repeat;
+	margin: 0;
+}
+
+.content-adsense-bottom .widget,
+#widget-ad-large {
+	padding-bottom: 20px;
+}
+
+.inactive-sidebar #widget-ad-large {
+	padding-top: 20px;
+}
+
+
+
+/* ------------------------------------
+9.1 - jQuery FlexSlider
+------------------------------------ */
+
+/* Direction Nav */
+.flex-direction-nav {
+	display: none;
+}
